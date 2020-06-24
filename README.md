@@ -1,11 +1,14 @@
 # PWDB - New generation of Password Mass-Analysis
 
 ## Goal 
-Leaving the 20 year old stuff of red team behind. Stuff works fine, and no one bothers to check/replace it trough decades. 
+Leaving the 20 year old stuff of red team behind. Stuff works fine, and no one bothers to check/replace it through decades. 
 
 ## Included dumps
 You can check the status.txt in this repository to keep track of included dumps.
 
+
+## Curious about a statistic?
+Please create an issue and explain what you want to learn, and if its interesting i'll query the thing and add the result! 
 ## Cool Stats
 
 * From 1.000.000.000+ lines of dumps, `257.669.588` were filtered as either corrupt data(gibberish in improper format) or test accounts.
@@ -79,7 +82,9 @@ youbye123
 yuantuo2012
 ```
 
+## Updating
 
+I'll try to work in chunks of 1 billion credentials and update it regularly as it processes the data, until i run out of dumps.
 
 
 
