@@ -15,7 +15,7 @@ Please create an issue and explain what you want to learn, and if its interestin
 * 1 Billion credentials boil down to `168.919.919` passwords, and `393.386.953` usernames.
 * Most common password is `123456`. It covers roughly `0.722%` of all the passwords. (Around 7 million times per billion)
 * Most common 1000 passwords cover `6.607%` of all the passwords.
-* With most common 10 million passwords, hit-rate is at `36.28%`.
+* With most common 1 million passwords, hit-rate is at `36.28%`, and with most common 10 million passwords hit rate is at `54.00%`.
 * Average password length is `9.4822` characters.
 * 12.04% of passwords contain special characters.
 * 28.79% of passwords are letters only.
