@@ -138,6 +138,23 @@ I'll try to work in chunks of 1 billion credentials and update it regularly as i
 
 
 
+--- 
+
+
+<p align="center">
+  Like the project? Help me throw more resources at it!
+</p>
+
+<p align="center">
+  <img src="https://flameofignis.com/raw/pwdb-donate.png" />
+</p>
+
+<p align="center">
+  bc1quxwhewutde2ehjzqcflcgdjqwg34pmcdq3chcp
+</p>
+
+
+ 
 
 
 
