@@ -1,5 +1,12 @@
 # PWDB - New generation of Password Mass-Analysis
 
+![GitHub repo size](https://img.shields.io/github/repo-size/flameofignis/pwdb-public)
+![GitHub](https://img.shields.io/github/license/flameofignis/pwdb-public)
+![GitHub issues](https://img.shields.io/github/issues/flameofignis/pwdb-public)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/flameofignis/pwdb-public.svg)](http://isitmaintained.com/project/flameofignis/pwdb-public "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/flameofignis/pwdb-public.svg)](http://isitmaintained.com/project/flameofignis/pwdb-public "Percentage of issues still open")
+
+
 ## Goal 
 Leaving the 20 year old stuff of red team behind. Stuff works fine, and no one bothers to check/replace it through decades. 
 
