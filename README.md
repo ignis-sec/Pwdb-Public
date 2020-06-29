@@ -6,6 +6,29 @@ Leaving the 20 year old stuff of red team behind. Stuff works fine, and no one b
 ## Included dumps
 You can check the status.txt in this repository to keep track of included dumps.
 
+---
+
+## Mystery List of 40k high entropy passwords
+During my research, i've noticed a handful high entropy passwords (10 characters, uppercase-lowercase-digit) that were being reused.
+These passwords had really low occurrance rates, but it was still a lot more than i was expecting.
+
+**Some noticable stuff about these:**
+- They all start and end with uppercase characters
+- None of them seem to have a keyboard pattern or meaningful word in them.
+- They are all 10 characters long.
+- Some of them occurred up to 1 per 100 million credentials (meaning i have around 10 reuses of it currently)
+- Most recent occurrence for these: 86 of these were found in a 55623 credentials from a leak in june 2020
+
+I've filtered passwords which are 10 character long, and matches `(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=^[A-Z][A-Za-z0-9]+[A-Z]$)(?!.*[a-z]{3})(?!.*[A
+-Z]{3})` which had an occurrence rating of less than 1.2 per 100 million.
+
+I've released this list of 39576 passwords in mystery-list.txt under this repository.
+
+I have no idea what this uncovers and what it implies, but i'm suspecting a password manager out there is creating passwords with low entropy, causing repetations over a lot of users. All the ideas about this are welcome and appreciated.
+
+---
+
+
 
 ## Curious about a statistic?
 Please create an issue and explain what you want to learn, and if its interesting i'll query the thing and add the result! 
