@@ -16,13 +16,13 @@ These passwords had really low occurrance rates, but it was still a lot more tha
 - They all start and end with uppercase characters
 - None of them seem to have a keyboard pattern or meaningful word in them.
 - They are all 10 characters long.
+- They don't contain special characters.
 - Some of them occurred up to 1 per 100 million credentials (meaning i have around 10 reuses of it currently)
 - Most recent occurrence for these: 86 of these were found in a 55623 credentials from a leak in june 2020
 
-I've filtered passwords which are 10 character long, and matches `(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=^[A-Z][A-Za-z0-9]+[A-Z]$)(?!.*[a-z]{3})(?!.*[A
--Z]{3})` which had an occurrence rating of less than 1.2 per 100 million.
+I've filtered passwords which are 10 character long, and matches `(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=^[A-Z][A-Za-z0-9]+[A-Z]$)(?!.*[a-z]{3})(?!.*[A-Z]{3})` which had an occurrence rating of less than 1.2 per 100 million.
 
-I've released this list of 39576 passwords in mystery-list.txt under this repository.
+~~I've released this list of 39576 passwords in mystery-list.txt under this repository.~~ I've refiltered it to get 763k passwords matching this pattern.
 
 I have no idea what this uncovers and what it implies, but i'm suspecting a password manager out there is creating passwords with low entropy, causing repetations over a lot of users. All the ideas about this are welcome and appreciated.
 
