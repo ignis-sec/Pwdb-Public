@@ -31,7 +31,7 @@ I've filtered passwords which are 10 character long, and matches `(?=.*\d)(?=.*[
 
 ~~I've released this list of 39576 passwords in mystery-list.txt under this repository.~~ I've refiltered it to get 763k passwords matching this pattern.
 
-I have no idea what this uncovers and what it implies, but i'm suspecting a password manager out there is creating passwords with low entropy, causing repetations over a lot of users. All the ideas about this are welcome and appreciated.
+I have no idea what this uncovers and what it implies, but i'm suspecting a password manager out there is creating passwords with low entropy, causing repetitions over a lot of users. All the ideas about this are welcome and appreciated.
 
 ---
 
@@ -58,7 +58,7 @@ Please create an issue and explain what you want to learn, and if its interestin
 
 * `8.83%` of the passwords are unique - they were only found once. 
   * Their average length was `9.7965` characters.
-  * Suprisingly, just a fraction of these passwords are meaningless.
+  * Surprisingly, just a fraction of these passwords are meaningless.
   * Only `7.082%` of these passwords contain special characters - Rest matches `^[a-zA-Z0-9]$`
   * `20.02%` of these passwords are letters only, and `15.02%` is only lowercase.
     * Average length for lowercase-unique passwords were `9.3694` characters.
@@ -66,7 +66,7 @@ Please create an issue and explain what you want to learn, and if its interestin
 
 ## Language Specifics
 
-I've partioned my data depending on the top level domains of the email providers. (filter here: https://gist.github.com/FlameOfIgnis/9a1da894e8ae385a1ee58b8a734b8979)
+I've partitioned my data depending on the top level domains of the email providers. (filter here: https://gist.github.com/FlameOfIgnis/9a1da894e8ae385a1ee58b8a734b8979)
 
 
 I'm only releasing short lists of top 150 passwords for now. I'll eventually release full lists. I'll try to refrain from releasing an incomplete version publicly for now.
